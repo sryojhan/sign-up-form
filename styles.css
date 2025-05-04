@@ -64,6 +64,8 @@ body{
 
     animation: reveal-animation 1s ease-out;
 
+    max-width: 600px;
+
     position: relative;
 }
 
