@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+
+    <div class="page">
+
+
+        <div class="left-side">
+
+        </div>
+
+
+        <div class="right-side">
+            <div class="right-side-inner-border">
+
+
+                <div class="description">
+                    Welcome to the most awesome site on the web!
+
+                    Feel free to create an account to join
+                </div>
+
+
+
+                <h1>
+                    Let's do this!
+                </h1>
+
+                <form action="https://httpbin.org/post" method="post" target="_blank">
+
+
+                    <div class="form-input-container">
+                        <div class="form-input-row">
+
+                            <div class="input-with-header">
+
+                                <label for="first name" >First name</label>
+                                <input type="text" name="first name" id="first name">
+                            </div>
+
+
+                            <div class="input-with-header">
+
+                                <label for="last name">Last name</label>
+                                <input type="text" name="last name" id="last name">
+                            </div>
+                        </div>
+
+                        <div class="form-input-row">
+
+                            <div class="input-with-header">
+
+                                <label for="email" >Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+
+
+                            <div class="input-with-header">
+
+                                <label for="phone">Phone number</label>
+                                <input type="tel" pattern="[0-9]{9}" name="phone" id="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-input-row">
+
+                            <div class="input-with-header">
+
+                                <label for="password">Confirm password</label>
+                                <input type="password" name="password" id="password">
+                            </div>
+
+
+                            <div class="input-with-header">
+
+                                <label for="confirm password">Password</label>
+                                <input type="password" name="confirm password" id="confirm password">
+                            </div>
+
+                        </div>
+                    </div> <!-- form-input-container -->
+
+
+                    <button>Create Account</button>
+                </form>
+
+
+                <span>Already have an account? <a target="_blank" href="https://github.com/sryojhan/sign-up-form">Log in</a></span>
+
+            </div> <!-- Right side inner border -->
+
+        </div> <!-- Right side-->
+
+
+    </div>
+
+
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
